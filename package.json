@@ -1,0 +1,21 @@
+{
+    "name": "reservation_management_platform",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:dev": "nodemon"
+    },
+    "author": "heeseobSHIN",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "nodemon": "^3.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.2"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.2"
+    }
+}
