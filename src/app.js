@@ -26,5 +26,5 @@ app.use("/login", loginRoutes);
 app.use("/gauth", googleAuthRoutes);
 
 app.listen(port, () => {
-    console.log(`http://localhost:${port}에서 서버 동작중`);
+    console.log(`${port}번 포트 에서 서버열림`);
 });
